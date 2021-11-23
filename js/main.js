@@ -361,7 +361,7 @@ var main = (function () {
     };
 
     Terminal.prototype.ls = function () {
-        var result = ".\n..\n" + configs.getInstance().welcome_file_name + "\n";
+        var result = ".\n..\n"; //+ configs.getInstance().welcome_file_name + "\n";
         for (var file in files.getInstance()) {
             result += file + "\n";
         }

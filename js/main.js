@@ -70,7 +70,8 @@ var files = (function () {
         "about.txt": "I am matcha1024.\nI do programming as a hobby.\nI like computers.\nPlease make up with me.\n",
         "blog.txt": "https://blog.matcha1024.net/",
         "blog-onion.txt": "mtchblg6wpzy6zlumhfwokrgofua2mpocihaw5bec5fm5.onion",
-        "contact.txt": "matcha@matcha1024.net",
+        "discord.txt": "matcha1024#2299",
+        "email.txt": "matcha@matcha1024.net",
         "file_server.txt": "https://files.matcha1024.net/",
         "twitter.txt": "https://twitter.com/matcha1024_/",
     };

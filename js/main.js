@@ -45,7 +45,7 @@ var configs = (function () {
         host: "matcha1024.net",
         user: "guest",
         is_root: false,
-        type_delay: 7
+        type_delay: 3
     };
     return {
         getInstance: function (options) {

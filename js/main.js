@@ -26,7 +26,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to matcha1024.net! :)\nI am matcha1024.\nI do programming as a hobby.\nI like computers.\nPlease make up with me.\n\nType help to display help.\n",
+        welcome: "Welcome to matcha1024.net! :)\nI am matcha1024.\nI'm a normal person.\nI do programming as a hobby.\nI like computers.\nPlease make up with me.\n\nType help to display help.\n",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
         invalid_command_message: "<value>: command not found.",
@@ -45,7 +45,7 @@ var configs = (function () {
         host: "matcha1024.net",
         user: "guest",
         is_root: false,
-        type_delay: 3
+        type_delay: 3,
     };
     return {
         getInstance: function (options) {
@@ -67,7 +67,7 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "about.txt": "I am matcha1024.\nI do programming as a hobby.\nI like computers.\nPlease make up with me.\n",
+        "about.txt": "I am matcha1024.\nI'm a normal person.\nI do programming as a hobby.\nI like computers.\nPlease make up with me.\n",
         "blog.txt": "https://blog.matcha1024.net/",
         "blog-onion.txt": "mtchblg6wpzy6zlumhfwokrgofua2mpocihaw5bec5fm5.onion",
         "discord.txt": "matcha1024#2299",

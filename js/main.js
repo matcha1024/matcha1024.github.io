@@ -73,6 +73,7 @@ var files = (function () {
         "discord.txt": "matcha1024#2299",
         "email.txt": "matcha@matcha1024.net",
         "file_server.txt": "https://files.matcha1024.net/",
+        "github": "https://github.com/matcha1024/",
         "twitter.txt": "https://twitter.com/matcha1024_/",
     };
     return {
